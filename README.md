@@ -1,8 +1,8 @@
 # MindPrint
 
-[Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
-[License](https://img.shields.io/badge/License-MIT-F7DF1E?style=for-the-badge)
-[MindPrint](https://img.shields.io/badge/MindPrint-AI%20Human%20Detection-000000?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-F7DF1E?style=for-the-badge)
+![MindPrint](https://img.shields.io/badge/MindPrint-AI%20Human%20Detection-000000?style=for-the-badge)
 
 > Your code has a MindPrint. AI can't fake it.
 
