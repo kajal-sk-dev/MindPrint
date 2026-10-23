@@ -1,23 +1,16 @@
-"""
-Sample: Human-written code
-MindPrint should detect strong human trace
-"""
+# human code - bubble sort - i learned this in first year
+# not efficient but i remember it
 
-def fibonacci_human(n):
-    # I always forget base case, adding comment to remember
-    if n <= 0:
-        return 0
-    elif n == 1:
-        return 1
-    
-    # My old college trick - iterative is faster
-    a, b = 0, 1
-    for i in range(2, n+1):
-        # temp variable because I like clear code
-        temp = a + b
-        a = b
-        b = temp
-    return b
+def bubble(arr):
+    n = len(arr)
+    for i in range(n):
+        for j in range(0, n-i-1):
+            if arr[j] > arr[j+1]:
+                # swap - i always do this temp way
+                temp = arr[j]
+                arr[j] = arr[j+1]
+                arr[j+1] = temp
+    return arr
 
-# Testing with my lucky number
-print(fibonacci_human(7))  # should be 13
+a = [64, 34, 25, 12, 22]
+print(bubble(a))
