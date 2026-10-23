@@ -8,7 +8,7 @@ st.set_page_config(
 
 st.title("🧠 MindPrint")
 st.subheader("Your code has a MindPrint. AI can't fake it.")
-
+st.image("assets/banner.jpg")
 st.divider()
 
 code_input = st.text_area(
@@ -37,11 +37,11 @@ if check_btn:
             else:
                 score = 62
                 result = "Likely Human"
-            
-            st.success(f"Result: {result}")
-            st.metric("Human Authenticity Score", f"{score}%")
-            st.progress(score / 100)
-            st.info("💡 Trace the Human Behind the Code - MindPrint Analysis Complete")
+
+        st.success(f"Result: {result}")
+        st.metric("Human Authenticity Score", f"{score}%")
+        st.progress(score / 100)
+        st.info("💡 Trace the Human Behind the Code - MindPrint Analysis")
 
 if clear_btn:
     st.rerun()
